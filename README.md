@@ -27,10 +27,12 @@ I found that around 600 videos annotations of Saha's had some problems and 300 h
 Finally, rest required more intelligent combination of three versions. At the the end, we ended up with 3195 videos with good annotations in filename <code>finalAnnots.mat</code>. 
 We had to remove 9 videos for which we couldn't manage re-annotation, 3 were test videos and 6 train videos. There may be 5-10 videos which still might have some error in annotations.</p>
 
-<p>We have evaluated the approach of [1] and [5] and report the performance of their approach these annotations.</p>
+<p>We have evaluated the approach of [1] and [5] and report the performance of their approaches on older annotations from [1] and new corrected annotations annotations.</p>
+
+Below is the table using older annotations from [1]
 <table style="width:100%">
   <tr>
-    <th>IoU Threshold</th>
+    <th>IoU Threshold = </th>
     <th>0.2</th> 
     <th>0.5</th>
     <th>0.5</th>
@@ -38,24 +40,59 @@ We had to remove 9 videos for which we couldn't manage re-annotation, 3 were tes
   </tr>
   <tr>
     <th>Saha et al [1]</th> 
-    <th>0.5</th>
-    <th>0.5</th> 
-    <th>0.5</th>
-    <th>0.5</th>
+    <th>67.89</th>
+    <th>36.87</th> 
+    <th>06.78</th>
+    <th>14.29</th>
   </tr>
   <tr>
     <th>Singh et al [5]</th> 
-    <th>0.5</th>
-    <th>0.5</th> 
-    <th>0.5</th>
-    <th>0.5</th>
+    <th>69.12</th>
+    <th>41.16</th> 
+    <th>10.31</th>
+    <th>17.19</th>
   </tr>
   <tr>
     <th>Singh et al [5]</th> 
+    <th>70.73</th>
+    <th>43.20</th> 
+    <th>10.43</th>
+    <th>18.02</th>
+  </tr>
+</table>
+
+
+Below is the table using new corrected annotations.
+
+<table style="width:100%">
+  <tr>
+    <th>IoU Threshold = </th>
+    <th>0.2</th> 
     <th>0.5</th>
-    <th>0.5</th> 
     <th>0.5</th>
-    <th>0.5</th>
+    <th>0.5:0.95</th>
+  </tr>
+  <tr>
+    <th>Saha et al [1]</th> 
+    <th>66.06</th>
+    <th>36.19</th> 
+    <th>07.83</th>
+    <th>14.30</th>
+  </tr>
+  <tr>
+    <th>Singh et al [5]</th> 
+    <th>67.34</th>
+    <th>39.61</th> 
+    <th>11.04</th>
+    <th>17.14</th>
+  </tr>
+  <tr>
+    <th>Singh et al [5]</th> 
+    <th>68.90</th>
+    <th>42.04</th>
+    <th>11.48</th> 
+    <th>18.07</th>
+    
   </tr>
 </table>
 
