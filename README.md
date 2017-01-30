@@ -27,7 +27,38 @@ I found that around 600 videos annotations of Saha's had some problems and 300 h
 Finally, rest required more intelligent combination of three versions. At the the end, we ended up with 3195 videos with good annotations in filename <code>finalAnnots.mat</code>. 
 We had to remove 9 videos for which we couldn't manage re-annotation, 3 were test videos and 6 train videos. There may be 5-10 videos which still might have some error in annotations.</p>
 
-<p>We will evaluate the approach of [1] and [5] and report the performance of their approach these annotations.</p>
+<p>We have evaluated the approach of [1] and [5] and report the performance of their approach these annotations.</p>
+<table style="width:100%">
+  <tr>
+    <th>IoU Threshold</th>
+    <th>0.2</th> 
+    <th>0.5</th>
+    <th>0.5</th>
+    <th>0.5:0.95</th>
+  </tr>
+  <tr>
+    <th>Saha et al [1]</th> 
+    <th>0.5</th>
+    <th>0.5</th> 
+    <th>0.5</th>
+    <th>0.5</th>
+  </tr>
+  <tr>
+    <th>Singh et al [5]</th> 
+    <th>0.5</th>
+    <th>0.5</th> 
+    <th>0.5</th>
+    <th>0.5</th>
+  </tr>
+  <tr>
+    <th>Singh et al [5]</th> 
+    <th>0.5</th>
+    <th>0.5</th> 
+    <th>0.5</th>
+    <th>0.5</th>
+  </tr>
+</table>
+
 
 <h3>References:</h3>
 <ol>
