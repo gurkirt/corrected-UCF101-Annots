@@ -1,4 +1,6 @@
-<h2>Spatio-Temporal Annotations of 24 classes of UCF101 dataset</h2>
+# Spatio-Temporal Annotations of 24 classes of UCF101 dataset
+
+### Introduction
 Bounding box annotations of humans for 24 action classes of <a href="http://crcv.ucf.edu/data/UCF101.php">UCF101 dataset</a> 
 is available at the download page of <a href="http://www.thumos.info/download.html">THUMOS dataset</a> in xml format. 
 Parsing these annotation is not as easy, which resulted in different result of 
@@ -21,15 +23,19 @@ Weinzaepfel's version doesn't pick up all the action instances, some videos does
 but bounding-boxes accuracy temporal labelling accuracy are slightly better than other version.
 Parsing original was going to lead to similar problems.</p>
 
+### Correction
 
 <p> So, I went through the pain to look through the annotations of each video. 
 I found that around 600 videos annotations of Saha's had some problems and 300 had decent annotations for those videos in either in Weinzaepfel's version or Gemert's version.
 Finally, rest required more intelligent combination of three versions. At the the end, we ended up with 3195 videos with good annotations in filename <code>finalAnnots.mat</code>. 
 We had to remove 9 videos for which we couldn't manage re-annotation, 3 were test videos and 6 train videos. There may be 5-10 videos which still might have some error in annotations.</p>
 
-<p>We have evaluated the approach of [1] and [5] and report the performance of their approaches on older annotations from [1] and new corrected annotations annotations.</p>
+### Performance Numbers
+<p>We have evaluated the approach of [1] and [5] and report the performance of their approaches on older annotations from [1] 
+and new corrected annotations annotations. These results are produced on 911 test videos of split 1.</p>
 
 Below is the table using older annotations from [1]
+
 <table style="width:100%">
   <tr>
     <th>IoU Threshold = </th>
@@ -96,6 +102,10 @@ Below is the table using new corrected annotations.
   </tr>
 </table>
 
+
+If you want to regenrate those number please download results of [1] and [5] form [here](https://drive.google.com/drive/folders/0B-LzM05qEdk0dTRuY0xNUXlPMG8?usp=sharing). 
+Then create 'results' folder in root dirctory of this repo and place all (3) donwloed files.
+Now, you can rund <code>comput_mAPs.m</code> form inside the *evaluation* folder.
 
 <h3>References:</h3>
 <ol>
