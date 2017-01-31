@@ -1,7 +1,7 @@
-function s7_resave_final_remove_last_frame_errors()
+function s8_resave_final_remove_last_frame_errors()
 
 load('testnames.mat')
-load('merged_annot_remianing.mat')
+load('newAnnotats.mat')
 load('checkpoint_improved_after_remaining.mat')
 testlist = cell(2,1);
 v = 1;
@@ -17,7 +17,7 @@ while v <= length(merged_annot)
     
     if isgood(v)
         
-        [tubes,cc] = verifyTubes(merged_annot(v).tubes,num_imgs);
+        [tubes,cc] = verifyTubes(merged_annot(v).tubes,num_imgs,v,videoname);
         vc = vc +cc;
         if sum(strcmp(testvideos,videoname))
             
@@ -50,9 +50,10 @@ save('../testAnnot.mat','annot')
 annot = combinedannot;
 save('../finalAnnots.mat','annot')
 
-function [newtubes,cc] = verifyTubes(tubes, num_imgs)
+function [newtubes,cc] = verifyTubes(tubes, num_imgs,v,videoname)
 cc = 0;tc = 0;
 newtubes = struct();
+
 for t = 1 : length(tubes)
     ef = tubes(t).ef;
     sf = tubes(t).sf;
@@ -71,6 +72,6 @@ for t = 1 : length(tubes)
         newtubes(tc).boxes = tubes(t).boxes;
         newtubes(tc).class = tubes(t).class;
     else
-           disp('erororororor') 
+           fprintf('%d %s\n',v,videoname);
     end
 end
