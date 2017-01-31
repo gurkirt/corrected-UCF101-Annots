@@ -46,10 +46,10 @@ Below is the table using older annotations from [1]
   </tr>
   <tr>
     <th align="left">Saha et al [1] RGB+FLOW </th> 
-    <th>67.89</th>
-    <th>36.87</th> 
-    <th>06.78</th>
-    <th>14.29</th>
+    <td>67.89</td>
+    <td>36.87</td> 
+    <td>06.78</td>
+    <td>14.29</td>
   </tr>
   <tr>
     <th align="left">Singh et al [5] RGB+FastFLOW </th> 
