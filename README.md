@@ -6,19 +6,19 @@ is available at the download page of <a href="http://www.thumos.info/download.ht
 Parsing these annotation is not as easy, which resulted in different result of 
 everyone working on spatio-temporal localisation of action on these 24 classes.
 
-We gather three parsed version above available annotations.
+We gather three parsed version of above available annotations.
 <ol>
 <li> Saha <it>et. al.</it> [1] provide parsed annotations in <code>.mat format</code> and are available <a href"https://bitbucket.org/sahasuman/bmvc2016_code">here</a>. 
 These annotation were used by [1,4,5] in their works.
 We keep it in this repository under filename <code>annotV5.mat</code></li> 
-<li> We asked Weinzaepfel <it>et. al.</it>[2] for annotations used in [2] and initial version of [4]. Current version of [4] uses annotations provided by [1]. 
+<li> We asked Weinzaepfel <it>et. al.</it>[2] for annotations, which were used in [2] and initial version of [4]. Current version of [4] uses annotations provided by [1]. 
 We keep these annotation under filename<code>annot_full_phillipe.mat</code></li>
 <li> Gemert <it>et. al.</it> [3] provided theirs version of parsed annotations <a href="<https://github.com/jvgemert/apt">apt</a><li>. It is kept under filename <code>annot_apt.mat</code>
 </ol>
 
 <p>There are various problem and advantages in these parsed version when compared to each other. 
 For instance, Saha's version has most number of action instances but temporal labelling and consistency between different action instances is problem. 
-Gemert's version very much similar. 
+Gemert's version is very much similar to Saha's one. 
 Weinzaepfel's version doesn't pick up all the action instances, some videos doesn't even have one action instance, 
 but bounding-boxes accuracy temporal labelling accuracy are slightly better than other version.
 Parsing original was going to lead to similar problems.</p>
@@ -45,21 +45,21 @@ Below is the table using older annotations from [1]
     <th>0.5:0.95</th>
   </tr>
   <tr>
-    <th>Saha et al [1] RGB+FLOW </th> 
+    <th align="left">Saha et al [1] RGB+FLOW </th> 
     <th>67.89</th>
     <th>36.87</th> 
     <th>06.78</th>
     <th>14.29</th>
   </tr>
   <tr>
-    <th>Singh et al [5] RGB+FastFLOW </th> 
+    <th align="left">Singh et al [5] RGB+FastFLOW </th> 
     <th>69.12</th>
     <th>41.16</th> 
     <th>10.31</th>
     <th>17.19</th>
   </tr>
   <tr>
-    <th>Singh et al [5] RGB+FLOW </th> 
+    <th align="left">Singh et al [5] RGB+FLOW </th> 
     <th>70.73</th>
     <th>43.20</th> 
     <th>10.43</th>
@@ -86,14 +86,14 @@ Below is the table using new corrected annotations.
     <th>14.30</th>
   </tr>
   <tr>
-    <th>Singh et al [5] RGB+FastFLOW </th> 
+    <th align="left">Singh et al [5] RGB+FastFLOW </th> 
     <th>67.34</th>
     <th>39.61</th> 
     <th>11.04</th>
     <th>17.14</th>
   </tr>
   <tr>
-    <th>Singh et al [5] RGB + FLOW </th> 
+    <th align="left">Singh et al [5] RGB+FLOW </th> 
     <th>68.90</th>
     <th>42.04</th>
     <th>11.48</th> 
@@ -106,6 +106,12 @@ Below is the table using new corrected annotations.
 If you want to regenrate those number please download results of [1] and [5] form [here](https://drive.google.com/drive/folders/0B-LzM05qEdk0MU1kT01hbk50SWM?usp=sharing).
 Then create 'results' folder in root dirctory of this repo and place all (3) donwloaded files there.
 Now, you can run <code>comput_mAPs.m</code> form inside the *evaluation* folder.
+
+### Conclusion
+Difference from above number might seem small, in my view having better annotations is good for the community. 
+Also, it serves as basline for future works. So, results of future works are directly comparable to previous state-of-the-art methods [1,4,5]. 
+We recommend using provided evaluation script to evaluate your method. We will try to keep updating this page with additional numbers from other methods.
+
 
 <h3>References:</h3>
 <ol>
