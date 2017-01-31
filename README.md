@@ -1,4 +1,4 @@
-# Spatio-Temporal Annotations of 24 classes of UCF101 dataset
+# SpatioTemporal Annotations of 24 for Classes of UCF101
 
 ### Introduction
 Bounding box annotations of humans for 24 action classes of <a href="http://crcv.ucf.edu/data/UCF101.php">UCF101 dataset</a> 
