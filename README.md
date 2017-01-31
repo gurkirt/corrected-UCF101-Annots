@@ -79,7 +79,7 @@ Below is the table using new corrected annotations.
     <th>0.5:0.95</th>
   </tr>
   <tr>
-    <th>Saha et al [1] RGB+FLOW </th> 
+    <th align="left">Saha et al [1] RGB+FLOW </th> 
     <th>66.06</th>
     <th>36.19</th> 
     <th>07.83</th>
@@ -93,7 +93,7 @@ Below is the table using new corrected annotations.
     <th>17.14</th>
   </tr>
   <tr>
-    <th>Singh et al [5] RGB+FLOW </th> 
+    <th>Singh et al [5] RGB + FLOW </th> 
     <th>68.90</th>
     <th>42.04</th>
     <th>11.48</th> 
@@ -103,9 +103,9 @@ Below is the table using new corrected annotations.
 </table>
 
 
-If you want to regenrate those number please download results of [1] and [5] form [here](https://drive.google.com/drive/folders/0B-LzM05qEdk0dTRuY0xNUXlPMG8?usp=sharing). 
-Then create 'results' folder in root dirctory of this repo and place all (3) donwloed files.
-Now, you can rund <code>comput_mAPs.m</code> form inside the *evaluation* folder.
+If you want to regenrate those number please download results of [1] and [5] form [here](https://drive.google.com/drive/folders/0B-LzM05qEdk0MU1kT01hbk50SWM?usp=sharing).
+Then create 'results' folder in root dirctory of this repo and place all (3) donwloaded files there.
+Now, you can run <code>comput_mAPs.m</code> form inside the *evaluation* folder.
 
 <h3>References:</h3>
 <ol>
