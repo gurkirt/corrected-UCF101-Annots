@@ -97,8 +97,7 @@ Below is the table using new corrected annotations.
     <th>68.90</th>
     <th>42.04</th>
     <th>11.48</th> 
-    <th>18.07</th>
-    
+    <th>18.07</th>  
   </tr>
 </table>
 
