@@ -38,32 +38,32 @@ Below is the table using older annotations from [1]
 
 <table style="width:100%">
   <tr>
-    <th>IoU Threshold = </th>
-    <th>0.2</th> 
-    <th>0.5</th>
-    <th>0.5</th>
-    <th>0.5:0.95</th>
+    <td>IoU Threshold = </td>
+    <td>0.2</td> 
+    <td>0.5</td>
+    <td>0.5</td>
+    <td>0.5:0.95</td>
   </tr>
   <tr>
-    <th align="left">Saha et al [1] RGB+FLOW </th> 
+    <td align="left">Saha et al [1] RGB+FLOW </td> 
     <td>67.89</td>
     <td>36.87</td> 
     <td>06.78</td>
     <td>14.29</td>
   </tr>
   <tr>
-    <th align="left">Singh et al [5] RGB+FastFLOW </th> 
-    <th>69.12</th>
-    <th>41.16</th> 
-    <th>10.31</th>
-    <th>17.19</th>
+    <td align="left">Singh et al [5] RGB+FastFLOW </td> 
+    <td>69.12</td>
+    <td>41.16</td> 
+    <td>10.31</td>
+    <td>17.19</td>
   </tr>
   <tr>
-    <th align="left">Singh et al [5] RGB+FLOW </th> 
-    <th>70.73</th>
-    <th>43.20</th> 
-    <th>10.43</th>
-    <th>18.02</th>
+    <td align="left">Singh et al [5] RGB+FLOW </td> 
+    <td>70.73</td>
+    <td>43.20</td> 
+    <td>10.43</td>
+    <td>18.02</td>
   </tr>
 </table>
 
@@ -72,28 +72,28 @@ Below is the table using new corrected annotations.
 
 <table style="width:100%">
   <tr>
-    <th>IoU Threshold = </th>
-    <th>0.2</th> 
-    <th>0.5</th>
-    <th>0.5</th>
-    <th>0.5:0.95</th>
+    <td>IoU Threshold = </td>
+    <td>0.2</td> 
+    <td>0.5</td>
+    <td>0.5</td>
+    <td>0.5:0.95</td>
   </tr>
   <tr>
-    <th align="left">Saha et al [1] RGB+FLOW </th> 
-    <th>66.06</th>
-    <th>36.19</th> 
-    <th>07.83</th>
-    <th>14.30</th>
+    <td align="left">Saha et al [1] RGB+FLOW </td> 
+    <td>66.06</td>
+    <td>36.19</td> 
+    <td>07.83</td>
+    <td>14.30</td>
   </tr>
   <tr>
-    <th align="left">Singh et al [5] RGB+FastFLOW </th> 
-    <th>67.34</th>
-    <th>39.61</th> 
-    <th>11.04</th>
-    <th>17.14</th>
+    <td align="left">Singh et al [5] RGB+FastFLOW </td> 
+    <td>67.34</td>
+    <td>39.61</td> 
+    <td>11.04</td>
+    <td>17.14</td>
   </tr>
   <tr>
-    <th align="left">Singh et al [5] RGB+FLOW </th> 
+    <td align="left">Singh et al [5] RGB+FLOW </td> 
     <th>68.90</th>
     <th>42.04</th>
     <th>11.48</th> 
