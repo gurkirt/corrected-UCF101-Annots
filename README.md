@@ -60,10 +60,10 @@ Below is the table using older annotations from [1]
   </tr>
   <tr>
     <td align="left">Singh et al [5] RGB+FLOW </td> 
-    <td>70.73</td>
-    <td>43.20</td> 
-    <td>10.43</td>
-    <td>18.02</td>
+    <th>70.73</th>
+    <th>43.20</th> 
+    <th>10.43</th>
+    <th>18.02</th>
   </tr>
 </table>
 
