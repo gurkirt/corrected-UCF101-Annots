@@ -18,14 +18,15 @@ load('../testlist.mat')
 %% LOAD bmvc annot and eval above detections
 annot = load('../annot_bmvc.mat');
 mAPs = zeros(200,5); new = 0; count = 0;
-for iou_th = [0.2,0.5:0.05:0.95]
-    [smAP,smIoU,sacc,sAP] = get_PR_curve(annot.videos, sahadetection, testlist, actions,  iou_th);
-    [ffmAP,ffmIoU,ffacc,ffAP] = get_PR_curve(annot.videos, fastflowDetections, testlist, actions,  iou_th);
-    [sfmAP,sfmIoU,sfacc,sfAP] = get_PR_curve(annot.videos, slowflowDetections, testlist, actions,  iou_th);
-    count = count + 1;
-    mAPs(count,:) = [new,iou_th, smAP, ffmAP, sfmAP];
-    fprintf('IOU-TH %.2f SAHA %0.3f FASTFLOW %0.3f SLOWFLOW %0.3f N\n',iou_th,smAP,ffmAP,sfmAP);
-end 
+
+% for iou_th = [0.2,0.5:0.05:0.95]
+%     [smAP,smIoU,sacc,sAP] = get_PR_curve(annot.videos, sahadetection, testlist, actions,  iou_th);
+%     [ffmAP,ffmIoU,ffacc,ffAP] = get_PR_curve(annot.videos, fastflowDetections, testlist, actions,  iou_th);
+%     [sfmAP,sfmIoU,sfacc,sfAP] = get_PR_curve(annot.videos, slowflowDetections, testlist, actions,  iou_th);
+%     count = count + 1;
+%     mAPs(count,:) = [new,iou_th, smAP, ffmAP, sfmAP];
+%     fprintf('IOU-TH %.2f SAHA %0.3f FASTFLOW %0.3f SLOWFLOW %0.3f N\n',iou_th,smAP,ffmAP,sfmAP);
+% end 
 
 %% LOAD new annots and eval above detections
 annot = load('../finalAnnots.mat'); new = 1;
@@ -37,5 +38,5 @@ for iou_th = [0.2,0.5:0.05:0.95]
     mAPs(count,:) = [new,iou_th, smAP, ffmAP, sfmAP];
     fprintf('IOU-TH %.2f SAHA %0.3f FASTFLOW %0.3f SLOWFLOW %0.3f N\n',iou_th,smAP,ffmAP,sfmAP);
 end 
-
+mAPs(count+1:end,:) = [];
 save('mAPs.mat','mAPs');

@@ -80,24 +80,24 @@ Below is the table using new corrected annotations.
   </tr>
   <tr>
     <td align="left">Saha et al [1] RGB+FLOW </td> 
-    <td>66.06</td>
-    <td>36.19</td> 
+    <td>66.10</td>
+    <td>36.21</td> 
     <td>07.83</td>
-    <td>14.30</td>
+    <td>14.32</td>
   </tr>
   <tr>
     <td align="left">Singh et al [5] RGB+FastFLOW </td> 
-    <td>67.34</td>
-    <td>39.61</td> 
-    <td>11.04</td>
-    <td>17.14</td>
+    <td>67.39</td>
+    <td>39.65</td> 
+    <td>11.07</td>
+    <td>17.17</td>
   </tr>
   <tr>
     <td align="left">Singh et al [5] RGB+FLOW </td> 
-    <th>68.90</th>
-    <th>42.04</th>
-    <th>11.48</th> 
-    <th>18.07</th>  
+    <th>68.96</th>
+    <th>42.08</th>
+    <th>11.51</th> 
+    <th>18.10</th>  
   </tr>
 </table>
 
