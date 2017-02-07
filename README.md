@@ -39,9 +39,9 @@ Below is the table using older annotations from [1]
 <table style="width:100%">
   <tr>
     <td>IoU Threshold = </td>
-    <td>0.2</td> 
-    <td>0.5</td>
-    <td>0.5</td>
+    <td>0.20</td> 
+    <td>0.50</td>
+    <td>0.75</td>
     <td>0.5:0.95</td>
   </tr>
   <tr>
@@ -73,9 +73,9 @@ Below is the table using new corrected annotations.
 <table style="width:100%">
   <tr>
     <td>IoU Threshold = </td>
-    <td>0.2</td> 
-    <td>0.5</td>
-    <td>0.5</td>
+    <td>0.20</td> 
+    <td>0.50</td>
+    <td>0.75</td>
     <td>0.5:0.95</td>
   </tr>
   <tr>
