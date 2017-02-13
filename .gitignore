@@ -1,3 +1,5 @@
 annot-correction/saved/
 *~
+*.backup
 results/
+evaluation/temp.mat

@@ -27,8 +27,19 @@ Parsing original was going to lead to similar problems.</p>
 
 <p> So, I went through the pain to look through the annotations of each video. 
 I found that around 600 videos annotations of Saha's had some problems and 300 had decent annotations for those videos in either in Weinzaepfel's version or Gemert's version.
-Finally, rest required more intelligent combination of three versions. At the the end, we ended up with 3195 videos with good annotations in filename <code>finalAnnots.mat</code>. 
-We had to remove 9 videos for which we couldn't manage re-annotation, 3 were test videos and 6 train videos. There may be 5-10 videos which still might have some error in annotations.</p>
+Finally, rest required more intelligent combination of three versions. At the the end, we ended up with 3194 videos with good annotations in filename <code>finalAnnots.mat</code>. 
+We had to remove 9 videos for which we couldn't manage re-annotation, 4 were test videos and 6 train videos. There may be 5-10 videos which still might have some error in annotations.</p>
+
+After feedback from [Philippe Weinzaepfel](http://www.xrce.xerox.com/About-XRCE/People/Philippe-Weinzaepfel), 
+I found there were about 30 tubes with wrong bounding boxes or duration of tubes was different than number of boxes. 
+So, I looked at those tubes visually and corrected the boxes manually. 
+At present there are 3194 videos with correct annotations. All the bounding boxes are within image boundaries and temporal durations are within the temporal bounds of videos.
+
+### Download
+This repository has new and old annotations in root directory itself. But, you can also download it from [google drive](https://drive.google.com/drive/folders/0B-LzM05qEdk0MU1kT01hbk50SWM?usp=sharing).
+Either you can download videos of UCF101 and extract it yourself, we used ffmpeg -<videoname> <extractionDirectory/%05d.jpg> to extract the images. 
+OR, UCF101 images for 24 classes are also available on above link.
+
 
 ### Performance Numbers
 <p>We have evaluated the approach of [1] and [5] and report the performance of their approaches on older annotations from [1] 
@@ -80,39 +91,40 @@ Below is the table using new corrected annotations.
   </tr>
   <tr>
     <td align="left">Saha et al [1] RGB+FLOW </td> 
-    <td>66.10</td>
-    <td>36.21</td> 
-    <td>07.83</td>
-    <td>14.32</td>
+    <td>66.55</td>
+    <td>36.37</td> 
+    <td>07.94</td>
+    <td>14.37</td>
   </tr>
   <tr>
     <td align="left">Singh et al [5] RGB+FastFLOW </td> 
-    <td>67.39</td>
-    <td>39.65</td> 
-    <td>11.07</td>
-    <td>17.17</td>
+    <td>67.69</td>
+    <td>40.06</td> 
+    <td>11.09</td>
+    <td>17.30</td>
   </tr>
   <tr>
     <td align="left">Singh et al [5] RGB+FLOW </td> 
-    <th>68.96</th>
-    <th>42.08</th>
-    <th>11.51</th> 
-    <th>18.10</th>  
+    <th>69.34</th>
+    <th>42.53</th>
+    <th>11.62</th> 
+    <th>18.25</th>  
   </tr>
 </table>
 
 
-If you want to regenrate those number please download results of [1] and [5] form [here](https://drive.google.com/drive/folders/0B-LzM05qEdk0MU1kT01hbk50SWM?usp=sharing).
-Then create 'results' folder in root dirctory of this repo and place all (3) donwloaded files there.
-Now, you can run <code>comput_mAPs.m</code> form inside the *evaluation* folder.
+If you want to regenerate those number please go to [google drive link](https://drive.google.com/drive/folders/0B-LzM05qEdk0MU1kT01hbk50SWM?usp=sharing).
+Then, download the *results* folder in to root directory of this repository from download 
+Now, you can run <code>compute_mAPs.m</code> form inside the *evaluation* folder.
 
 ### Conclusion
 Difference from above number might seem small, in my view having better annotations is good for the community. 
-Also, it serves as basline for future works. So, results of future works are directly comparable to previous state-of-the-art methods [1,4,5]. 
+Also, it serves as baseline for future works. So, results of future works are directly comparable to previous state-of-the-art methods [1,4,5]. 
 We recommend using provided evaluation script to evaluate your method. We will try to keep updating this page with additional numbers from other methods.
 
+Please send me final results in same format as of provided for [1] and [5]. It is same format as annotations.
 
-<h3>References:</h3>
+### References
 <ol>
 <li> S. Saha, G. Singh, M. Sapienza, P. H. S. Torr, and F. Cuzzolin, Deep learning for detecting multiple space-time action tubes in videos. In British Machine Vision Conference, 2016</li>
 <li> P. Weinzaepfel, Z. Harchaoui, and C. Schmid, Learning to track for spatio-temporal action localization. In IEEE Int. Conf. on Computer Vision and Pattern Recognition, June 2015 </li>
