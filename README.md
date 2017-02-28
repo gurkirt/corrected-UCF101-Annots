@@ -127,23 +127,23 @@ Please send me final results in same format as of provided for [1] and [5]. It i
 If you use above annotation in your work, please cite the origibal UCF101 dataset 
 
 
-  @article{soomro2012ucf101,
-    title={UCF101: A dataset of 101 human actions classes from videos in the wild},
-    author={Soomro, Khurram and Zamir, Amir Roshan and Shah, Mubarak},
-    journal={arXiv preprint arXiv:1212.0402},
-    year={2012}
-  }
+      @article{soomro2012ucf101,
+        title={UCF101: A dataset of 101 human actions classes from videos in the wild},
+        author={Soomro, Khurram and Zamir, Amir Roshan and Shah, Mubarak},
+        journal={arXiv preprint arXiv:1212.0402},
+        year={2012}
+      }
 
  
 Also Please consider citing 
 
 
-  @article{singh2016online,
-    title={Online Real time Multiple Spatiotemporal Action Localisation and Prediction on a Single Platform},
-    author={Singh, Gurkirt and Saha, Suman and Sapienza, Michael and Torr, Philip and Cuzzolin, Fabio},
-    journal={arXiv preprint arXiv:1611.08563},
-    year={2016}
-  }
+      @article{singh2016online,
+        title={Online Real time Multiple Spatiotemporal Action Localisation and Prediction on a Single Platform},
+        author={Singh, Gurkirt and Saha, Suman and Sapienza, Michael and Torr, Philip and Cuzzolin, Fabio},
+        journal={arXiv preprint arXiv:1611.08563},
+        year={2016}
+      }
 
 
 
