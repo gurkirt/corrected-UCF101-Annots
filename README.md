@@ -38,7 +38,13 @@ At present there are 3194 videos with correct annotations. All the bounding boxe
 ### Download
 This repository has new and old annotations in root directory itself. But, you can also download it from [google drive](https://drive.google.com/drive/folders/0B-LzM05qEdk0MU1kT01hbk50SWM?usp=sharing).
 Either you can download videos of UCF101 and extract it yourself, we used ffmpeg -<videoname> <extractionDirectory/%05d.jpg> to extract the images. 
-OR, UCF101 images for 24 classes are also available on above link.
+
+OR 
+
+You can also donwload
+
+[RGB images for 24 classes of UCF101 (2GB)](https://drive.google.com/drive/folders/0B-LzM05qEdk0MU1kT01hbk50SWM?usp=sharing)
+[Results (100MB)](https://drive.google.com/drive/folders/0B-LzM05qEdk0MU1kT01hbk50SWM?usp=sharing) 
 
 
 ### Performance Numbers
