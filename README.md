@@ -63,6 +63,13 @@ Below is the table using older annotations from [1]
     <td>0.5:0.95</td>
   </tr>
   <tr>
+    <td align="left">Peng et al [4] RGB+FLOW </td> 
+    <th>73.55</th>
+    <th>30.87</th>
+    <th>01.01</th> 
+    <th>07.11</th>  
+  </tr>
+  <tr>
     <td align="left">Saha et al [1] RGB+FLOW </td> 
     <td>67.89</td>
     <td>36.87</td> 
@@ -95,6 +102,13 @@ Below is the table using new corrected annotations.
     <td>0.50</td>
     <td>0.75</td>
     <td>0.5:0.95</td>
+  </tr>
+  <tr>
+    <td align="left">Peng et al [4] RGB+FLOW </td> 
+    <th>73.67</th>
+    <th>32.07</th>
+    <th>00.85</th> 
+    <th>07.26</th>  
   </tr>
   <tr>
     <td align="left">Saha et al [1] RGB+FLOW </td> 
