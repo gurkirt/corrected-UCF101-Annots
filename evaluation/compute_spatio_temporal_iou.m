@@ -65,7 +65,7 @@ if T_i>0
         
         % gt_bound = [gt_bound(:,1:2) gt_bound(:,3:4)-gt_bound(:,1:2)];
         % dt_bound = [dt_bound(:,1:2) dt_bound(:,3:4)-dt_bound(:,1:2)];
-        iou(i) = inters_union(gt_bound,dt_bound);
+        iou(i) = inters_union(double(gt_bound),double(dt_bound));
     end
     % finalspatio-temporal IoU threshold
     st_iou = T_iou*mean(iou);
