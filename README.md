@@ -65,9 +65,9 @@ Below is the table using older annotations from [1]
   <tr>
     <td align="left">Peng et al [4] RGB+FLOW </td> 
     <th>73.55</th>
-    <th>30.87</th>
-    <th>01.01</th> 
-    <th>07.11</th>  
+    <td>30.87</td>
+    <td>01.01</td> 
+    <td>07.11</td>  
   </tr>
   <tr>
     <td align="left">Saha et al [1] RGB+FLOW </td> 
@@ -85,7 +85,7 @@ Below is the table using older annotations from [1]
   </tr>
   <tr>
     <td align="left">Singh et al [5] RGB+FLOW </td> 
-    <th>70.73</th>
+    <td>70.73</td>
     <th>43.20</th> 
     <th>10.43</th>
     <th>18.02</th>
@@ -106,9 +106,9 @@ Below is the table using new corrected annotations.
   <tr>
     <td align="left">Peng et al [4] RGB+FLOW </td> 
     <th>73.67</th>
-    <th>32.07</th>
-    <th>00.85</th> 
-    <th>07.26</th>  
+    <td>32.07</td>
+    <td>00.85</td> 
+    <td>07.26</td>  
   </tr>
   <tr>
     <td align="left">Saha et al [1] RGB+FLOW </td> 
@@ -126,7 +126,7 @@ Below is the table using new corrected annotations.
   </tr>
   <tr>
     <td align="left">Singh et al [5] RGB+FLOW </td> 
-    <th>69.34</th>
+    <td>69.34</td>
     <th>42.53</th>
     <th>11.62</th> 
     <th>18.25</th>  
