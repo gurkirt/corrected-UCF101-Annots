@@ -119,17 +119,17 @@ Below is the table using new corrected annotations.
   </tr>
   <tr>
     <td align="left">Singh et al [5] RGB+FastFLOW </td> 
-    <td>67.69</td>
-    <td>40.06</td> 
-    <td>11.09</td>
-    <td>17.30</td>
+    <td>70.20</td>
+    <td>43.00</td> 
+    <td>14.10</td>
+    <td>19.20</td>
   </tr>
   <tr>
     <td align="left">Singh et al [5] RGB+FLOW </td> 
-    <td>69.34</td>
-    <th>42.53</th>
-    <th>11.62</th> 
-    <th>18.25</th>  
+    <td>73.50</td>
+    <th>46.30</th>
+    <th>15.00</th> 
+    <th>20.40</th>  
   </tr>
 </table>
 
