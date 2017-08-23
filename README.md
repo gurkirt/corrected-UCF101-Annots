@@ -156,7 +156,7 @@ If you use above annotation in your work, please cite the origibal UCF101 datase
       }
 
  
-Also Please consider citing 
+Also Please consider citing work below. Annotion were corrected by Gurkirt Singh while while work on real-time action detection pipeline described in the following work. 
 
 
       @article{singh2016online,
@@ -174,5 +174,5 @@ Also Please consider citing
 <li> P. Weinzaepfel, Z. Harchaoui, and C. Schmid, Learning to track for spatio-temporal action localization. In IEEE Int. Conf. on Computer Vision and Pattern Recognition, June 2015 </li>
 <li> J. C. van Gemert, M. Jain, E. Gati, and C. G. Snoek. Apt: Action localization proposals from dense trajectories. In BMVC, volume 2, page 4, 2015.</li>
 <li> X. Peng and C. Schmid. Multi-region two-stream R-CNN for action detection. In ECCV 2016 - European Conference on Computer Vision, Amsterdam, Netherlands, Oct. 2016.</li>
-<li> G. Singh, S Saha, M. Sapienza, P. H. S. Torr and F Cuzzolin. "Online Real time Multiple Spatiotemporal Action Localisation and Prediction." arXiv preprint arXiv:1611.08563 (2016).</li>
+<li> G. Singh, S Saha, M. Sapienza, P. H. S. Torr and F Cuzzolin. "Online Real time Multiple Spatiotemporal Action Localisation and Prediction." ICCV 2017.</li>
 <ol>
