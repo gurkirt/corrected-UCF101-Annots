@@ -23,7 +23,7 @@ Weinzaepfel's version doesn't pick up all the action instances, some videos does
 but bounding-boxes accuracy temporal labelling accuracy are slightly better than other version.
 Parsing original was going to lead to similar problems.</p>
 
-### Correction
+### Corrections
 
 <p> So, I went through the pain to look through the annotations of each video. 
 I found that around 600 videos annotations of Saha's had some problems and 300 had decent annotations for those videos in either in Weinzaepfel's version or Gemert's version.
@@ -141,12 +141,12 @@ Now, you can run <code>compute_mAPs.m</code> form inside the *evaluation* folder
 ### Conclusion
 Difference from above number might seem small, in my view having better annotations is good for the community. 
 Also, it serves as baseline for future works. So, results of future works are directly comparable to previous state-of-the-art methods [1,4,5]. 
-We recommend using provided evaluation script to evaluate your method. We will try to keep updating this page with additional numbers from other methods.
+We recommend using provided evaluation script to evaluate your method. We will try to keep updating this page with additional results from other methods.
 
-Please send me final results in same format as of provided for [1] and [5]. It is same format as annotations.
+If you want your results to be included on this page. Please send me final results in same format as of provided for [1] and [5]. It is same format as annotations format.
+
 ### Citing
 If you use above annotation in your work, please cite the origibal UCF101 dataset 
-
 
       @article{soomro2012ucf101,
         title={UCF101: A dataset of 101 human actions classes from videos in the wild},
@@ -155,15 +155,13 @@ If you use above annotation in your work, please cite the origibal UCF101 datase
         year={2012}
       }
 
- 
 Also Please consider citing work below. Annotion were corrected by Gurkirt Singh while while work on real-time action detection pipeline described in the following work. 
 
-
-      @article{singh2016online,
+      @inproceedings{singh2016online,
         title={Online Real time Multiple Spatiotemporal Action Localisation and Prediction},
         author={Singh, Gurkirt and Saha, Suman and Sapienza, Michael and Torr, Philip and Cuzzolin, Fabio},
-        journal={arXiv preprint arXiv:1611.08563},
-        year={2016}
+        jbooktitle={ICCV},
+        year={2017}
       }
 
 
@@ -174,5 +172,5 @@ Also Please consider citing work below. Annotion were corrected by Gurkirt Singh
 <li> P. Weinzaepfel, Z. Harchaoui, and C. Schmid, Learning to track for spatio-temporal action localization. In IEEE Int. Conf. on Computer Vision and Pattern Recognition, June 2015 </li>
 <li> J. C. van Gemert, M. Jain, E. Gati, and C. G. Snoek. Apt: Action localization proposals from dense trajectories. In BMVC, volume 2, page 4, 2015.</li>
 <li> X. Peng and C. Schmid. Multi-region two-stream R-CNN for action detection. In ECCV 2016 - European Conference on Computer Vision, Amsterdam, Netherlands, Oct. 2016.</li>
-<li> G. Singh, S Saha, M. Sapienza, P. H. S. Torr and F Cuzzolin. "Online Real time Multiple Spatiotemporal Action Localisation and Prediction." ICCV 2017.</li>
+<li> G. Singh, S Saha, M. Sapienza, P. H. S. Torr and F Cuzzolin. "Online Real time Multiple Spatiotemporal Action Localisation and Prediction." ICCV, 2017.</li>
 <ol>
