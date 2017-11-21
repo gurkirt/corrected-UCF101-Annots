@@ -4,3 +4,4 @@ annot-correction/saved/
 results/
 utils/
 evaluation/temp.mat
+*.idea/

@@ -12,7 +12,7 @@ We gather three parsed version of above available annotations.
 These annotation were used by [1,4,5] in their works.
 We keep it in this repository under filename <code>annotV5.mat</code></li> 
 <li> We asked Weinzaepfel <it>et. al.</it>[2] for annotations, which were used in [2] and initial version of [4]. Current version of [4] uses annotations provided by [1]. 
-We keep these annotation under filename<code>annot_full_phillipe.mat</code></li>
+We keep these annotation under filename <code>annot_full_phillipe.mat</code></li>
 <li> Gemert <it>et. al.</it> [3] provided theirs version of parsed annotations <a href="<https://github.com/jvgemert/apt">apt</a><li>. It is kept under filename <code>annot_apt.mat</code>
 </ol>
 
@@ -36,14 +36,13 @@ So, I looked at those tubes visually and corrected the boxes manually.
 At present there are 3194 videos with correct annotations. All the bounding boxes are within image boundaries and temporal durations are within the temporal bounds of videos.
 
 ### Download
-This repository has new and old annotations in root directory itself. But, you can also download it from [google drive](https://drive.google.com/drive/folders/0B-LzM05qEdk0MU1kT01hbk50SWM?usp=sharing).
-Either you can download videos of UCF101 and extract it yourself, we used ffmpeg -<videoname> <extractionDirectory/%05d.jpg> to extract the images. 
+This repository has both new and old annotations in root directory itself.
+Final corrected annotation file is named as <code>finalAnnots.mat</code>.
+Python Version of the same is now avaiable  <code>pyannot.pkl</code>
 
-OR 
+ALSO
 
-You can also donwload
-
-[RGB images for 24 classes of UCF101 (2GB)](https://drive.google.com/drive/folders/0B-LzM05qEdk0MU1kT01hbk50SWM?usp=sharing)
+You can also donwload the results from
 
 [Results (100MB)](https://drive.google.com/drive/folders/0B-LzM05qEdk0MU1kT01hbk50SWM?usp=sharing) 
 
