@@ -8,12 +8,12 @@ everyone working on spatio-temporal localisation of action on these 24 classes.
 
 We gather three parsed version of above available annotations.
 <ol>
-<li> Saha <it>et. al.</it> [1] provide parsed annotations in <code>.mat format</code> and are available <a href"https://bitbucket.org/sahasuman/bmvc2016_code">here</a>. 
+<li> Saha <it>et. al.</it> [1] provide parsed annotations in <code>.mat format</code> and are available <a href="https://bitbucket.org/sahasuman/bmvc2016_code">here</a>. 
 These annotation were used by [1,4,5] in their works.
 We keep it in this repository under filename <code>annotV5.mat</code></li> 
 <li> We asked Weinzaepfel <it>et. al.</it>[2] for annotations, which were used in [2] and initial version of [4]. Current version of [4] uses annotations provided by [1]. 
 We keep these annotation under filename <code>annot_full_phillipe.mat</code></li>
-<li> Gemert <it>et. al.</it> [3] provided theirs version of parsed annotations <a href="<https://github.com/jvgemert/apt">apt</a><li>. It is kept under filename <code>annot_apt.mat</code>
+<li> Gemert <it>et. al.</it> [3] provided theirs version of parsed annotations <a href="<https://github.com/jvgemert/apt">apt</a>. It is kept under filename <code>annot_apt.mat</code> <li>
 </ol>
 
 <p>There are various problem and advantages in these parsed version when compared to each other. 
