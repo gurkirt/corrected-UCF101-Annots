@@ -5,3 +5,4 @@ results/
 utils/
 evaluation/temp.mat
 *.idea/
+*.gz
